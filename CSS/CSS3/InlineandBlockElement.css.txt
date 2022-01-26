@@ -1,0 +1,10 @@
+	h1,h2
+	{
+	 background-color:yellow;
+	}
+	
+	span
+	{
+	color:white;
+	 background-color:red;
+	}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Overflow and custom Tooltip</title>
+    <style>
+        div
+        {
+            width: 140px;
+            height: 205px;
+            background-color:gold;
+            border: 2px red solid;
+            overflow: auto;
+        }
+        .tooltip .tooltip-text
+        {
+            width: 140px;
+            background-color: royalblue;
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            position: absolute;
+            visibility: hidden;
+        }
+        .tooltip:hover .tooltip-text
+        {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div> 
+       Overflow sed est aliquyam eirmod diam gubergren dolor duo elitr justo, dolor et clita sanctus rebum. Clita labore aliquyam amet et. Kasd no at gubergren ipsum elitr sadipscing diam lorem dolore, ea at stet tempor dolores et diam duo gubergren sea. Diam dolore eirmod takimata dolor labore, et lorem at.
+    </div>
+    <a href="#" class="tooltip">
+        Facebok
+        <span class="tooltip-text">facebok is a popular social Media</span>
+    </a>
+</body>
+</html>

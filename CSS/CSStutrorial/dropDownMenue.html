@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down Menu </title>
+
+    <style>
+        .nav
+        {
+            background-color: blueviolet;
+            padding: 1% 7%;
+            text-align: center;
+        }
+        .nav a
+        {
+            color:floralwhite;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .dropDownContainer
+        {
+            display: inline;
+            position: relative;
+        }
+        .dropdown-content
+        {
+            position: absolute;
+            top: 30px;
+            right: 0px;
+            background-color: rgb(32, 109, 109);
+            text-align: left;
+            min-width: 100px;
+            display:none;    
+        }
+        .dropDownContainer:hover .dropdown-content
+        {
+            display: block;
+            
+        }
+        .dropdown-content a:hover
+        {
+            background-color: darkslategrey;
+        }
+      
+        .dropdown-content a
+        {
+            display: block;
+        }
+
+    </style>
+
+</head>
+
+    <body>
+        <div class="nav">
+            <a href="#">Hame</a>
+            <a href="#">Service</a>
+                <div class="dropDownContainer">
+                    <a href="#">Contact Us </a>
+                    <div class="dropdown-content">
+                        <a href="#"> Facebok </a>
+                       <a href="#">E-mail </a>
+                    </div>
+                </div>
+            <a href="#">About Us</a>
+        </div>
+    </body>
+
+</html>

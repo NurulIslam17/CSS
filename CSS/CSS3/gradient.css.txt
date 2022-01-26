@@ -1,0 +1,10 @@
+	
+
+	.gradientStyle
+	{
+	 height:300px;
+	 width:400px;
+	 background-image:linear-gradient(to right,yellow,red,orange,red,blue);
+	 color:black;
+	 font-size:120%;
+	}

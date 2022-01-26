@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        a.Mylink:hover
+        {
+            color: red;
+        }
+
+        input:hover
+        {
+            background-color: salmon;
+        }
+        p::first-letter
+        {
+            color: blueviolet;
+            font-size: 30px;
+        }
+        p::after
+        {
+           content: ">>>>";
+        }
+
+    </style>
+</head>
+
+<body>
+    <a class="Mylink" href="#">Tutroial</a>
+    <a href="#">Home</a></br>
+    <input type="text" name="tname" placeholder="Name">
+    <p> Psedo Element Eos eos eos rebum at sed invidunt et no elitr, et duo amet labore diam et dolore, est sanctus erat.</p>
+</body>
+</html>

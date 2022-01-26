@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout 2</title>
+    <style>
+        .iteam1{grid-area: header;}
+        .iteam2{grid-area: menu;}
+        .iteam3{grid-area: main;}
+        .iteam4{grid-area: aside;}
+        .iteam5{grid-area: footer;}
+
+        .grid-container
+        {
+            display: grid;
+            /*grid-template-columns: auto auto auto auto auto auto;*/
+            grid-template-areas: 
+            'header header header header header header'
+            'menu main main main aside aside'
+            'menu footer footer footer footer footer '
+            ;
+        }
+        .grid-container > div
+        {
+            background-color: cornflowerblue;
+            border: 1px solid red;
+            text-align: center;
+            font-size: 1rem;
+        }
+        .iteam1
+        {
+            grid-column: 1/7;
+        }
+        .iteam2
+        {
+            grid-column: 1/2;
+            grid-row: 2/4;
+        }
+        .iteam3
+        {
+            grid-column: 2/6;
+        }
+        .iteam4
+        {
+            grid-column: 6/7;
+        }
+        .iteam5
+        {
+            grid-column: 2/7;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="iteam1">
+            <h1>Header</h1>
+        </div>
+        <div class="iteam2">
+            <h1>Menu</h1>
+        </div>
+        <div class="iteam3">
+            <h1>Main</h1>
+        </div>
+        <div class="iteam4">
+            <h1>Aside</h1>
+        </div>
+        <div class="iteam5">
+            <h1>Footer</h1>
+        </div>
+    </div>
+  
+</body>
+</html>

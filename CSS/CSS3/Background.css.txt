@@ -1,0 +1,9 @@
+
+Body
+	{
+		background-color:pink;
+        background-image:url("bd.jpg");
+		background-repeat:no-repeat;
+		background-position:right top;
+		background-attachment:fixed;
+	}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Colomn</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            background-color: coral;
+        }
+        .col
+        {
+            float: left;
+            width: 25%;
+            padding-left: 10px;
+        }
+        @media screen and (max-width: 900px)
+        {
+           .col
+           {
+                float: left;
+                width: 50%;
+                background:chartreuse;
+                padding:10px;
+           }
+        }
+        @media screen and (max-width: 600px)
+        {
+           .col
+           {
+                float: left;
+                width: 25%;
+                background-color: coral;
+                padding:10px;
+           }
+        }
+
+    </style>
+
+    </head>
+
+        <body>
+            <div class="row">
+                <div class="col">
+                    <h2>HTML</h2>
+                    <p> Ametgna, est dol Dolor et kaliquyam amet lorem. Voluptua dolor sed erat amet invidunt kasd, elitr amet no et sit nonumy stet aliquyam, stet.</p>
+                </div>
+                <div class="col">
+                    <h2>CSS</h2>
+                    <p> Amet eirmod inviditr magna, estrebum voluptua invidunt accusam vero. Dolor et kasd ipsum kasd, vero sit stet aliquyam amet lorem. Voluptua dolor sed erat amet invidunt kasd, elitr amet no et sit nonumy stet aliquyam, stet.</p>
+                </div>
+                <div class="col">
+                    <h2>JS</h2>
+                    <p> Alitr magna, est dolore gubernvidunt accusam vero. Dolor et kasd ipsum kasd, vero sit stet aliquyam amet lorem. Voluptua dolor sed erat amet invidunt kasd, elitr amet no et sit nonumy stet aliquyam, stet.</p>
+                </div>
+                <div class="col">
+                    <h2>Python</h2>
+                    <p> Amet eirmod itr asd ipsum kasd, vero sit stet aliquyam amet lorem. Voluptua dolor sed erat amet invidunt kasd, elitr amet no et sit nonumy stet aliquyam, stet.</p>
+                </div>
+
+            </div>
+    
+        </body>
+</html>

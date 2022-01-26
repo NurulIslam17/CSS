@@ -1,0 +1,31 @@
+
+
+*
+{
+    background-color: thistle;
+}
+input[type="text"]
+{
+    width: 120px;
+    height: 20px;
+    padding: 2px;
+    border: 2px solid rebeccapurple;
+    font-size: 1rem;
+}
+#search
+{
+  background-color: white;
+  background-image: url("images/search.png");
+  background-repeat: no-repeat;
+  background-position: 4px 10px;
+  font-size: 1rem;
+  padding: 5px 20px;
+  width: 200px;
+  transition: width 0.2s ease-in-out;
+}
+#search:focus
+{
+  background-color:blueviolet;
+  width: 60%;
+ 
+}
